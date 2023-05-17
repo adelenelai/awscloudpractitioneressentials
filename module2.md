@@ -25,7 +25,20 @@
 #### Pricing
 * various pricing schemes and ways to save e.g., savings plans, reserved instances, spot, and dedicated hosts (most $$$)
 
-#### Scaling
+#### Scaling (Elasticity)
+* capacity grows and shrinks according to business needs
+* AWS - can provision workload on the go - cost savings
+* Auto Scaling service from AWS EC2 - dynamic vs. predictive scaling, or both together
+* decouple workers (order makers) vs. order takers
+* scaling up vs scaling out
+* can set minimum, maximum, desired capacities for EC2 instances
+
+#### Load Balancing to direct traffic
+* analogy: all customers go to the same cashier 
+* add a **host** to direct customers to different cashiers to maintain even and short lines, customers get most efficient service
+* 
+
+
 
 
    
